@@ -1,0 +1,484 @@
+
+/* mise en forme de la page */
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#block_page {
+    font-family: 'raleway', sans-serif;
+    width: 90%;
+    margin: auto; 
+}
+
+a {
+    text-decoration: none;
+    color: black; 
+    box-sizing: content-box;
+}
+
+
+/*-- HEADER --*/
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+}
+
+#logo img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px; 
+}
+
+.navbar {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 15px; 
+}
+
+ul li a:hover {
+    border-top: 3px solid #0065fc; 
+    padding-top: 10%;
+    color: #0065fc;
+}
+
+.sign_in {
+    display: flex;
+    margin-top: 16px; 
+}
+    
+.sign_in a { 
+    font-weight: bold;
+    color: #0065fc; 
+}
+
+/*-- FIN header --*/
+
+/*-- DIV Recherche --*/
+
+.search_area {
+    margin-bottom: 3%;
+}
+
+h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0; 
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: normal;
+    margin-top: 0;
+}
+
+/*--SEARCH-- */
+
+#search_bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+#marker {
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    background-color: #F2F2F2;
+    border-radius: 10px 0 0 10px;
+}
+
+#marker i {
+    margin-left: 6px;
+}
+
+.search input[type=search] {
+    width: 200px;
+    height: 36px;
+    padding: 8px 0 8px 8px;
+    border: solid 2px #F2F2F2; 
+    border-right: solid 2px white;
+    font-size: 1em;
+}
+
+.search button {
+    width: 120px;
+    height: 36px;
+    padding: 8px 8px 8px 8px;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-weight: bold;
+    font-size: 1em;
+    color: white; 
+}
+
+.submit_logo {
+    display: none;
+}
+/* --FILTRES-- */
+
+#filter {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+}
+
+#title {
+    font-weight: bold;
+}
+
+#filter i {
+    border-radius: 28px;
+    background-color: #DEEBFF;
+    padding: 7px 7px 7px 7px;
+    color: #0065FC;
+    margin-right: 10px; 
+}
+
+#economique {
+    font-weight: bold;
+    margin-left: 25px; margin-right: 15px; 
+    width: 150px;
+    border: solid 2px #F2F2F2;
+    border-radius: 28px; 
+}
+
+#economique:hover {
+    background-color: #DEEBFF; color: #0065FC; 
+}
+
+#familial {
+    font-weight: bold;
+    margin-right: 15px; 
+    width: 110px;
+    border: solid #F2F2F2;
+    border-radius: 28px; 
+}
+
+#familial:hover {
+    background-color: #DEEBFF; color: #0065FC; 
+}    
+
+#romantique {
+    font-weight: bold;
+    margin-right: 15px; 
+    width: 140px;
+    border: solid #F2F2F2;
+    border-radius: 28px;  
+}
+    
+#romantique:hover {
+    background-color: #DEEBFF; color: #0065FC; 
+}
+
+#animaux {
+    font-weight: bold;
+    margin-right: 15px; 
+    width: 195px;
+    border: solid #F2F2F2;
+    border-radius: 28px;  
+}
+        
+#animaux:hover {
+    background-color: #DEEBFF; color: #0065FC; 
+}
+
+
+/* paragraphe : plus de 500 logements */    
+
+.search_area p { 
+    font-size: 0.8em;
+    margin-top: 20px; margin-left: 3px;
+    display: flex; 
+    align-items: center; 
+}
+
+.search_area p i {
+    border: solid 2px #f2f2f2;
+    border-radius: 50%;
+    background-color:white;
+    padding: 3px 7px 3px 7px;
+    color: #0065FC;
+    margin-right: 10px; 
+}
+
+/*-- fin div recherche --*/
+
+/*-- Section main room --*/
+
+#main_rooms {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+figure {
+    box-shadow: 3px 3px 5px rgb(218, 218, 218);
+    border-radius: 15px;
+    border: 2px solid white;
+    margin: 0;
+}
+
+/*titre Hébergements Marseille + ASIDE */
+
+h3 {
+    font-size: 1.2em;
+    padding-left: 1em;
+}
+
+/*-- DIV  ID="CLASSIC_ROOMS" --*/
+
+#classic_rooms {
+   width: 65%;
+   max-width: 1000px; 
+   height: 100%;
+   background-color: #f2f2f2;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.classic_content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+/* Mise en forme de chaque carte : une DIV > FIGURE > IMG > FIGCAPTION > titre + p + 5 icons star  */
+.room {
+    width: 30%;
+    margin-bottom: 10px;
+    -moz-padding: 20px;
+}    
+
+.room figure {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+         
+}
+
+.room img {
+    width: 100%;
+    max-height: 128px;
+    height: auto;
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+}
+
+.room figcaption {
+    padding-left: 10px;
+    text-align: left;
+    line-height: 0.2rem;
+}
+
+.room h4 {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.room p {
+    font-size: 0.9em;
+}
+
+.room i {
+    color:#0065FC;
+    font-size: 0.9em;
+}
+
+.mer i:nth-child(4) {
+    color: #f2f2f2;
+}
+
+.cannebiere i:nth-child(5), .mouettes i:nth-child(5), .mer i:nth-child(5), .panier i:nth-child(5) {
+    color:#f2f2f2;
+}
+
+/*-- mention AFFICHER PLUS --*/
+.more { 
+    font-weight: bold;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+/*-- Fin DIV  ID="CLASSIC_ROOMS" --*/
+
+
+
+/*-- ASIDE --*/
+aside {
+    width: 33%;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+
+/*-- ASIDE Titre et icone --*/
+aside div:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside i {
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+/*-------------------------------------- ASIDE contenu*/
+
+.pop_content {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pop_content a {
+    width: 80%;
+    height: 30%;
+}
+
+.pop_content figure {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.pop_content img {
+    width: 40%;
+    border-radius: 15px 0 0 15px;
+    object-fit: cover;
+}
+
+.pop_content figcaption {
+    width: 60%;
+    padding-left: 5px; 
+    background-color: white;
+    border-radius: 0 15px 15px 0;
+    line-height: 1em;
+}
+
+aside h4 {
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+aside p {
+    font-size: 0.9em;
+}
+
+aside p i {
+    color: #0065FC;
+    font-size: 0.9em;
+    padding-right: 2px;
+}
+
+.coeur_eau i:last-child, .bleu_blanc i:last-child {
+    color: #f2f2f2;
+}
+
+
+/* ------------------------------------Fin SECTION MAIN_ROOMS -------------------------------------------- */
+
+
+
+/* -------------------------------------- SECTION ACTIVITY --------------------------------------------------*/
+
+#activity_section {
+    width: 100%;
+}
+
+.activity_content {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column_single {
+    width: 23%;
+}
+
+.column_double {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    width: 23%;
+}
+
+.column_single figure {
+    width: 100%;
+    height: 100%;
+}
+
+.column_single img {
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.column_double figure {
+    width: 100%;
+    height: 100%;
+}
+
+.column_double img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.activity_content img {
+    border-radius: 15px 15px 0 0;
+}
+
+.activity_content h4 {
+    font-size: 0.8em;
+    margin: 5px 0 5px 10px;
+}
+
+/* ------------------------------------ Fin section ACTIVITES ----------------------------------------*/
+
+/*------------------------------------------- FOOTER -------------------------------------------------*/
+
+footer {
+    width: 100%;
+    height: auto;
+    margin: 50px 0 0 0; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F2F2F2;
+    line-height: 10px;
+}
+
+footer h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: -20px;
+}
+
+
+
+
