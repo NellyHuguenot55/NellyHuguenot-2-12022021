@@ -345,7 +345,7 @@ aside i {
     padding-right: 15px;
 }
 
-/*-------------------------------------- ASIDE contenu*/
+/*-- ASIDE contenu --*/
 
 .pop_content {
     width: 100%; 
@@ -358,6 +358,7 @@ aside i {
 .pop_content a {
     width: 80%;
     height: 30%;
+   
 }
 
 .pop_content figure {
@@ -400,11 +401,11 @@ aside p i {
 }
 
 
-/* ------------------------------------Fin SECTION MAIN_ROOMS -------------------------------------------- */
+/*--Fin SECTION MAIN_ROOMS --*/
 
 
 
-/* -------------------------------------- SECTION ACTIVITY --------------------------------------------------*/
+/*-- SECTION ACTIVITY --*/
 
 #activity_section {
     width: 100%;
@@ -458,9 +459,9 @@ aside p i {
     margin: 5px 0 5px 10px;
 }
 
-/* ------------------------------------ Fin section ACTIVITES ----------------------------------------*/
+/*-- Fin section ACTIVITES --*/
 
-/*------------------------------------------- FOOTER -------------------------------------------------*/
+/*-- FOOTER --*/
 
 footer {
     width: 100%;

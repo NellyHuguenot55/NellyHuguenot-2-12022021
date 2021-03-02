@@ -1,7 +1,6 @@
-/*_______________________________________________________________________________________________________*/
 
-/* -------------------------------RESPONSIVE width-device < 767px ------------------------------*/
-/* ______________________________________________________________________________________________________*/
+
+/* --RESPONSIVE Smartphone width-device < 767px-- */
 
 
 @media all and (max-width: 767px) 
@@ -21,7 +20,7 @@
         margin-left: 5px;
     }
 
-/* --------------------------- header < 767px---------------------------------*/
+/*-- header < 767px --*/
     header {
         width: 95%;
         flex-wrap: wrap;
@@ -116,7 +115,7 @@
         margin-bottom: 20px;
     }
     
-    /* ---------------------------DIV Recherche < 767px---------------------------------*/
+    /*-- DIV Recherche < 767px --*/
 
     #filter {
         display: inline; 
@@ -134,8 +133,8 @@
          margin-bottom: 10px;
     }
 
-    /* ----------------------- SECTION MAIN_ROOMS < 767px ---------------------------*/
-    /*-----------------------x6 Hébergements + aside populaires) -----------------------*/
+    /*-- SECTION MAIN_ROOMS < 767px --*/
+    /*-- x6 Hébergements + aside populaires) --*/
 
     #main_rooms {
         width: 100%;
@@ -145,7 +144,7 @@
         align-content: center;
     }
 
-    /* --------------------------- 1/ HEBERGEMENTS à MARSEILLE ---------------------------------*/
+    /*-- 1/ HEBERGEMENTS à MARSEILLE --*/
     /* Passe SOUS le aside, qui monte en 1er sous les filtres*
     Se positionne en colonnes, photos en paysage et figcaption dessous */
 
@@ -174,7 +173,7 @@
 
 
 
-   /* --------------------------- 2/ ASIDE POPULAIRE < 767px -------------------------------*/
+   /* --2/ ASIDE POPULAIRE < 767px-- */
     /* monte au dessus des 6 hébergements classiques
     garde sa mise en forme photo justifiée à gauche, figcpation à droite*/
 
@@ -190,7 +189,7 @@
         object-fit: cover;
     }
 
-    /* --------------------------- 3/ ACTIVITES < 767px -----------------------------------*/
+    /*-- 3/ ACTIVITES < 767px --*/
     /* Se positionne en colonnes, photos en paysage et figcaption dessous */
 
     .activity_content {
@@ -216,7 +215,7 @@
     }
 
 
-/* ---------------------------------- FOOTER < 767px--------------------------------------*/
+/*-- FOOTER < 767px --*/
 
     footer {
         width: 100%;
@@ -231,17 +230,16 @@
         line-height: 10px;
     }
 }
-/* --------------------------------- fermeture width-device > 767px */
+/*-- fermeture width-device > 767px --*/
 
 
 
 
 
 
-/* _______________________________________________________________________________________________________
 
-/* -------------------------------RESPONSIVE width-device <from 768px to 1024px> --------------------------*/
-/* ______________________________________________________________________________________________________*/
+
+/*-- RESPONSIVE Tablette width-device <from 768px to 1024px> --*/
 
 @media all and (min-width: 768px) and (max-width: 1024px) 
 {
@@ -256,7 +254,7 @@
     }
 
     /* Le header est identique à celui du CSS orginal SAUF pour les filtres en display wrap : */
-    /* --------------------------- FILTRES <from 768px to 1024px> -------------------------*/
+    /*-- FILTRES <from 768px to 1024px> --*/
     
     #filter {
         margin-top: 2%;
@@ -269,7 +267,7 @@
         margin-top: 10px;
     }
 
-/* --------------------------- SECTION MAIN_ROOMS <from 768px to 1024px> -------------------------*/   
+/* --SECTION MAIN_ROOMS <from 768px to 1024px>--*/   
 
     #main_rooms {
         width: 100%;
@@ -277,7 +275,7 @@
         flex-flow: column wrap;
     }
 
-    /* --------------------------- 1/ HEBERGEMENTS à MARSEILLE <from 768px to 1024px> -------------------------*/
+    /* --1/ HEBERGEMENTS à MARSEILLE <from 768px to 1024px> --*/
     
     /* Passe SOUS le aside, qui monte sous les filtres*
     Se positionne en colonnes, photos en paysage et figcaption dessous */
@@ -302,7 +300,7 @@
         padding: 5px;
     }
 
-   /* --------------------------- 2/ ASIDE POPULAIRE <from 768px to 1024px> --------------------------------*/
+   /* --2/ ASIDE POPULAIRE <from 768px to 1024px> --*/
     /* monte au dessus des 6 hébergements classiques
     garde sa mise en forme photo justifiée à gauche, figcpation à droite*/
 
@@ -317,7 +315,7 @@
         justify-content: center;
     }
 
-    /* --------------------------- 3/ ACTIVITES <from 768px to 1024px> -----------------((----------------*/
+    /* --3/ ACTIVITES <from 768px to 1024px>--*/
     /* Se positionne en colonnes, photos en paysage et figcaption dessous */
 
     .activity_content {
@@ -350,7 +348,7 @@
 
     
 
- /* ---------------------------------- FOOTER <from 768px to 1024px> --------------------------------------*/
+ /*-- FOOTER <from 768px to 1024px> ---*/
 
     footer {
         width: 90%;
@@ -366,13 +364,8 @@
     }
 }
 
+/* --RESPONSIVE <from <from 1025px to 1600px> --*/
 
-
-
-/* _______________________________________________________________________________________________________
-
-/* -------------------------------RESPONSIVE width-device <from 1025px to 1600px> --------------------------*/
-/* ______________________________________________________________________________________________________*/
 
 
 @media all and (min-width: 1025px) and (max-width: 1600px) 
