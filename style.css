@@ -231,9 +231,14 @@ figure {
     border-radius: 15px;
     border: 2px solid white;
     margin: 0;
+    transition-duration: 0.2s;
 }
 
-/*titre Hébergements Marseille + ASIDE */
+figure:hover {
+    transform: scale(1.05);
+}
+
+/*-- titre Hébergements Marseille --*/
 
 h3 {
     font-size: 1.2em;
@@ -342,7 +347,7 @@ aside div:first-child {
 
 aside i {
     padding-top: 25px;
-    padding-right: 15px;
+    padding-right: 60px;
 }
 
 /*-- ASIDE contenu --*/
@@ -381,9 +386,17 @@ aside i {
     line-height: 1em;
 }
 
-aside h4 {
-    font-size: 0.8em;
+figure {
+    transition-duration: 0.2s;
+}
+
+figure:hover {
+    transform: scale(1.05);
+}
+
+aside h3 {
     font-weight: bold;
+    padding-left: 50px;
 }
 
 aside p {
