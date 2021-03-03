@@ -50,8 +50,6 @@ Le code a été versionner sur GIT et déployé sur GITHUB a l'addresse suivante
 
 A noter que le responsive a été intégré directement dans le fichier CSS "media_queries.css"
 
-La version du projet a été réalisée en partie sur le navigateur Chrome.
-
 Le code ne contient aucune erreur au validateur W3C HTML et CSS.
     
 
