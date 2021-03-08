@@ -36,34 +36,42 @@ header {
     margin-top: 10px; 
 }
 
-.navbar {
+.navigation {
     display: flex;
 }
 
+nav {
+    display: flex;
+    padding-right: 0;
+}
 nav ul {
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    margin-right: 13.56px;
+}
+nav ul li {
+    border-top: solid 2.5px transparent;
+    padding: 38px 30px 0 30px;
+}
+nav ul li:hover {
+    border-top: solid 2.5px #0065fc;
 }
 
-nav li {
-    margin-right: 15px; 
-}
-
-ul li a:hover {
-    border-top: 3px solid #0065fc; 
-    padding-top: 10%;
+.overline a:hover {
     color: #0065fc;
 }
 
-.sign_in {
-    display: flex;
-    margin-top: 16px; 
+.sinscrire {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #0065fc;
+    float: right;
+    margin-right: 33.9px;
+    padding-top: 24px;
 }
-    
-.sign_in a { 
-    font-weight: bold;
-    color: #0065fc; 
-}
+
+
 
 /*-- FIN header --*/
 
